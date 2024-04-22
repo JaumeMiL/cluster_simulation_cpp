@@ -1,0 +1,7 @@
+<map id="AreaEspera.hh" name="AreaEspera.hh">
+<area shape="rect" id="node1" title="Especificació de la classe AreaEspera." alt="" coords="15,5,123,32"/>
+<area shape="rect" id="node2" href="$Proces_8hh.html" title="Especificació de la classe Proces." alt="" coords="68,229,150,256"/>
+<area shape="rect" id="node3" href="$Prioritat_8hh.html" title="Especificació de la classe Prioritat." alt="" coords="26,155,112,181"/>
+<area shape="rect" id="node4" href="$Cluster_8hh.html" title="Especificació de la classe Cluster." alt="" coords="108,80,190,107"/>
+<area shape="rect" id="node5" href="$Processador_8hh.html" title="Especificació de la classe Processador." alt="" coords="186,155,298,181"/>
+</map>

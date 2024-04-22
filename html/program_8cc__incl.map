@@ -1,0 +1,8 @@
+<map id="program.cc" name="program.cc">
+<area shape="rect" id="node1" title="Simulació del rendiment de processadors interconectats." alt="" coords="49,5,136,32"/>
+<area shape="rect" id="node2" href="$Cluster_8hh.html" title="Especificació de la classe Cluster." alt="" coords="52,155,133,181"/>
+<area shape="rect" id="node4" href="$Proces_8hh.html" title="Especificació de la classe Proces." alt="" coords="52,304,133,331"/>
+<area shape="rect" id="node5" href="$AreaEspera_8hh.html" title="Especificació de la classe AreaEspera." alt="" coords="131,80,239,107"/>
+<area shape="rect" id="node3" href="$Processador_8hh.html" title="Especificació de la classe Processador." alt="" coords="37,229,149,256"/>
+<area shape="rect" id="node6" href="$Prioritat_8hh.html" title="Especificació de la classe Prioritat." alt="" coords="223,229,309,256"/>
+</map>

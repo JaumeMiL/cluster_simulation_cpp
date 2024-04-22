@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Simulació del rendiment de processadors interconectats: Fitxer de Codi Prioritat.hh</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Simulació del rendiment de processadors interconectats<span id="projectnumber">&#160;Versió final</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generat per Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Cerca','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Cerca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">Prioritat.hh</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="Prioritat_8hh.html">Veure la documentació d'aquest fitxer.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#ifndef _PRIORITAT_HH_ </span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#define _PRIORITAT_HH_</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="Proces_8hh.html">Proces.hh</a>&quot;</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#ifndef NO_DIAGRAM </span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;string&gt;</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;list&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">using namespace </span>std;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="classPrioritat.html">   21</a></span><span class="keyword">class </span><a class="code hl_class" href="classPrioritat.html">Prioritat</a> {</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="comment">//Constructores:</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span><span class="comment"></span><a class="code hl_function" href="classPrioritat.html#af2ad973a8bc814685bc8f05aaa3a2a8a">Prioritat</a>();</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="comment">//Consultores:</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keywordtype">int</span> <a class="code hl_function" href="classPrioritat.html#a64da8b910f6b46b731e872b0a6562fc9">mida_llista</a> () <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="keywordtype">bool</span> <a class="code hl_function" href="classPrioritat.html#a080fa2f381bba18530f49b9e5c8a4118">te_processos_pendents</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span><span class="keywordtype">bool</span> <a class="code hl_function" href="classPrioritat.html#a9cce632f797e184d9c750d4d368cb554">conte_proces</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> &amp; idp) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keywordtype">void</span> <a class="code hl_function" href="classPrioritat.html#a3f975987abccc6862a701b9aae94121b">afegir_proces</a>(<span class="keyword">const</span> <a class="code hl_class" href="classProces.html">Proces</a>&amp; p);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="keywordtype">void</span> <a class="code hl_function" href="classPrioritat.html#abf90780c21a184e17e030afc56440d50">imprimir_prioritat</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><a class="code hl_class" href="classProces.html">Proces</a> <a class="code hl_function" href="classPrioritat.html#a3af391349254563e439876af35a78c2f">retornar_eliminar_proces</a>();</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="keywordtype">void</span> <a class="code hl_function" href="classPrioritat.html#a2a509b555b16485afae2b0b4f17a24fc">modificar_enviats_rebutjats</a> (<span class="keyword">const</span> <span class="keywordtype">int</span>&amp;e, <span class="keyword">const</span> <span class="keywordtype">int</span>&amp;r);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="classPrioritat.html#a3a510cbec2922e9acddca129dd9af443">   68</a></span>    list&lt;Proces&gt; <a class="code hl_variable" href="classPrioritat.html#a3a510cbec2922e9acddca129dd9af443">cua_pendents</a>;</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="classPrioritat.html#aa68d23351f0ac3896cfc8a36d8f49486">   71</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="classPrioritat.html#aa68d23351f0ac3896cfc8a36d8f49486">processos_enviats</a>;</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="classPrioritat.html#a722752053e6a85581eb02c2bd758fe5f">   74</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="classPrioritat.html#a722752053e6a85581eb02c2bd758fe5f">processos_rebutjats</a>;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>};</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span><span class="preprocessor">#endif </span><span class="comment">// _PRIORITAT_HH_</span></div>
+<div class="ttc" id="aProces_8hh_html"><div class="ttname"><a href="Proces_8hh.html">Proces.hh</a></div><div class="ttdoc">Especificació de la classe Proces.</div></div>
+<div class="ttc" id="aclassPrioritat_html"><div class="ttname"><a href="classPrioritat.html">Prioritat</a></div><div class="ttdoc">Representa la prioritat per ser executat de casdascun dels processos pendents que estroben a l'àrea d...</div><div class="ttdef"><b>Definition:</b> <a href="Prioritat_8hh_source.html#l00021">Prioritat.hh:21</a></div></div>
+<div class="ttc" id="aclassPrioritat_html_a080fa2f381bba18530f49b9e5c8a4118"><div class="ttname"><a href="classPrioritat.html#a080fa2f381bba18530f49b9e5c8a4118">Prioritat::te_processos_pendents</a></div><div class="ttdeci">bool te_processos_pendents() const</div><div class="ttdoc">Consultador de processos pendents.</div><div class="ttdef"><b>Definition:</b> <a href="Prioritat_8cc_source.html#l00030">Prioritat.cc:30</a></div></div>
+<div class="ttc" id="aclassPrioritat_html_a2a509b555b16485afae2b0b4f17a24fc"><div class="ttname"><a href="classPrioritat.html#a2a509b555b16485afae2b0b4f17a24fc">Prioritat::modificar_enviats_rebutjats</a></div><div class="ttdeci">void modificar_enviats_rebutjats(const int &amp;e, const int &amp;r)</div><div class="ttdoc">Modifiquem els enviats i rebutjats de cada prioritat.</div><div class="ttdef"><b>Definition:</b> <a href="Prioritat_8cc_source.html#l00024">Prioritat.cc:24</a></div></div>
+<div class="ttc" id="aclassPrioritat_html_a3a510cbec2922e9acddca129dd9af443"><div class="ttname"><a href="classPrioritat.html#a3a510cbec2922e9acddca129dd9af443">Prioritat::cua_pendents</a></div><div class="ttdeci">list&lt; Proces &gt; cua_pendents</div><div class="ttdoc">Llista de processos pendents.</div><div class="ttdef"><b>Definition:</b> <a href="Prioritat_8hh_source.html#l00068">Prioritat.hh:68</a></div></div>
+<div class="ttc" id="aclassPrioritat_html_a3af391349254563e439876af35a78c2f"><div class="ttname"><a href="classPrioritat.html#a3af391349254563e439876af35a78c2f">Prioritat::retornar_eliminar_proces</a></div><div class="ttdeci">Proces retornar_eliminar_proces()</div><div class="ttdoc">Serveix per retornar el primer procés i eliminar-lo de la llista.</div><div class="ttdef"><b>Definition:</b> <a href="Prioritat_8cc_source.html#l00016">Prioritat.cc:16</a></div></div>
+<div class="ttc" id="aclassPrioritat_html_a3f975987abccc6862a701b9aae94121b"><div class="ttname"><a href="classPrioritat.html#a3f975987abccc6862a701b9aae94121b">Prioritat::afegir_proces</a></div><div class="ttdeci">void afegir_proces(const Proces &amp;p)</div><div class="ttdoc">Afegir procés a la prioritat.</div><div class="ttdef"><b>Definition:</b> <a href="Prioritat_8cc_source.html#l00044">Prioritat.cc:44</a></div></div>
+<div class="ttc" id="aclassPrioritat_html_a64da8b910f6b46b731e872b0a6562fc9"><div class="ttname"><a href="classPrioritat.html#a64da8b910f6b46b731e872b0a6562fc9">Prioritat::mida_llista</a></div><div class="ttdeci">int mida_llista() const</div><div class="ttdoc">Consultador de la mida de la llista.</div><div class="ttdef"><b>Definition:</b> <a href="Prioritat_8cc_source.html#l00012">Prioritat.cc:12</a></div></div>
+<div class="ttc" id="aclassPrioritat_html_a722752053e6a85581eb02c2bd758fe5f"><div class="ttname"><a href="classPrioritat.html#a722752053e6a85581eb02c2bd758fe5f">Prioritat::processos_rebutjats</a></div><div class="ttdeci">int processos_rebutjats</div><div class="ttdoc">Variable que indica els processos rebutjats pel cluster.</div><div class="ttdef"><b>Definition:</b> <a href="Prioritat_8hh_source.html#l00074">Prioritat.hh:74</a></div></div>
+<div class="ttc" id="aclassPrioritat_html_a9cce632f797e184d9c750d4d368cb554"><div class="ttname"><a href="classPrioritat.html#a9cce632f797e184d9c750d4d368cb554">Prioritat::conte_proces</a></div><div class="ttdeci">bool conte_proces(const int &amp;idp) const</div><div class="ttdoc">Consulta si una prioritat té un procés específic.</div><div class="ttdef"><b>Definition:</b> <a href="Prioritat_8cc_source.html#l00036">Prioritat.cc:36</a></div></div>
+<div class="ttc" id="aclassPrioritat_html_aa68d23351f0ac3896cfc8a36d8f49486"><div class="ttname"><a href="classPrioritat.html#aa68d23351f0ac3896cfc8a36d8f49486">Prioritat::processos_enviats</a></div><div class="ttdeci">int processos_enviats</div><div class="ttdoc">Variable que indica els processos enviats amb èxit al cluster.</div><div class="ttdef"><b>Definition:</b> <a href="Prioritat_8hh_source.html#l00071">Prioritat.hh:71</a></div></div>
+<div class="ttc" id="aclassPrioritat_html_abf90780c21a184e17e030afc56440d50"><div class="ttname"><a href="classPrioritat.html#abf90780c21a184e17e030afc56440d50">Prioritat::imprimir_prioritat</a></div><div class="ttdeci">void imprimir_prioritat() const</div><div class="ttdoc">Imprimir la prioritat.</div><div class="ttdef"><b>Definition:</b> <a href="Prioritat_8cc_source.html#l00049">Prioritat.cc:49</a></div></div>
+<div class="ttc" id="aclassPrioritat_html_af2ad973a8bc814685bc8f05aaa3a2a8a"><div class="ttname"><a href="classPrioritat.html#af2ad973a8bc814685bc8f05aaa3a2a8a">Prioritat::Prioritat</a></div><div class="ttdeci">Prioritat()</div><div class="ttdoc">Constructor per defecte.</div><div class="ttdef"><b>Definition:</b> <a href="Prioritat_8cc_source.html#l00008">Prioritat.cc:8</a></div></div>
+<div class="ttc" id="aclassProces_html"><div class="ttname"><a href="classProces.html">Proces</a></div><div class="ttdoc">Representa un procés que haurà de ser executat per un processador del cluster.</div><div class="ttdef"><b>Definition:</b> <a href="Proces_8hh_source.html#l00018">Proces.hh:18</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generat per&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
+</small></address>
+</body>
+</html>
