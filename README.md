@@ -1,44 +1,28 @@
 
 # Process Management in Distributed Systems: A C++ Approach
+## Developed by Jaume Mora for PRO2 subject
 
-## Overview
-This project is a comprehensive C++ simulation of process management in distributed systems. It includes implementation of various classes like `Proces`, `Cluster`, `Processador`, and management of waiting areas and priorities within computational systems.
+### Overview 📘
+This project implements a simulation system for process management in an operating system environment, designed using C++. It features multiple components like Processors, Processes, Clusters, and Priority Management, which simulate the complex interactions and scheduling within a system.
 
-## Features
-- **Process Management**: Simulate the creation, execution, and scheduling of processes in a distributed environment.
-- **Cluster Simulation**: Manage a cluster of computational resources, allowing for detailed simulation of distributed computing scenarios.
-- **Priority Handling**: Implements a priority-based system for managing process execution order.
-- **Waiting Area**: Simulate areas for processes waiting for execution or resource allocation.
+### Components 🧩
+- **Processador (Processor)**: Manages the execution and scheduling of processes.
+- **Proces (Process)**: Represents an individual process with attributes and methods to simulate its behavior.
+- **Cluster**: Simulates a collection of processors working together.
+- **AreaEspera (Waiting Area)**: Manages processes that are waiting for execution.
+- **Prioritat (Priority)**: Handles the priority levels of processes within the system.
 
-## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+### Execution 🚀
+To compile and run the simulation:
+1. Make sure you have a C++ compiler installed.
+2. Navigate to the project directory.
+3. Run `make` to compile the project using the provided Makefile.
+4. Execute the compiled program.
 
-### Prerequisites
-- GNU Compiler Collection (GCC)
-- Make
+### Documentation 📄
+The project includes detailed HTML documentation generated via Doxygen, available in the `html` directory and compressed in `html.zip`.
 
-### Installing
-Clone the repository to your local machine:
-```bash
-git clone [URL_to_Repository]
-```
-Navigate to the project directory:
-```bash
-cd [Project_Directory]
-```
-Compile the project using Make:
-```bash
-make all
-```
+### Conclusion 📝
+This project showcases the application of object-oriented programming principles in system simulation, providing a robust framework for understanding process management in an OS context.
 
-## Usage
-To run the simulation, execute:
-```bash
-./[Executable_Name]
-```
-Replace `[Executable_Name]` with the name of the created executable file.
-
-## Contributing
-Contributions are what make the open-source community such a fantastic place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
+**Developer**: Jaume Mora
